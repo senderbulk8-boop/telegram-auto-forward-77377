@@ -1,4 +1,4 @@
-name: Telegram Auto Post
+name: Telegram Auto Post 377377
 
 on:
   workflow_dispatch:
