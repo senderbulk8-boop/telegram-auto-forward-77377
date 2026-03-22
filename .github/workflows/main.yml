@@ -1,4 +1,4 @@
-name: Telegram Auto Post 377377
+name: Telegram Auto Post
 
 on:
   workflow_dispatch:
@@ -31,7 +31,7 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           DEST_CHANNEL: ${{ secrets.DEST_CHANNEL }}
           FEED_URL: ${{ secrets.FEED_URL }}
-          FOLLOW_LINE: "📢 Follow @topgkguru"
+          FOLLOW_LINE: "📢 Follow TELEGRAM https://t.me/RAJBSTC2026"
         run: python bot.py
 
       - name: Commit last.txt state
